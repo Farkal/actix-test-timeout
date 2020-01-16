@@ -1,0 +1,15 @@
+[package]
+name = "actix-test-timeout"
+version = "0.1.0"
+authors = ["Etienne Prothon"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "1.0"
+actix-web = "2.0"
+log = "0.4"
+slog-envlogger = "2.2.0"
+slog-stdlog = "4.0.0"
+rand = "0.7"
